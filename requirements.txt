@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow-cpu==2.15.0
+streamlit
+plotly
+notebook
+ipykernel
