@@ -50,6 +50,14 @@ Tesla Stock Price Predication/
 
 ## 🚀 Getting Started & Installation
 
+### 1. Prerequisites
+Ensure you have **Python 3.8 - 3.11** installed.
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/Arnab-Ghosh7/Tesla_Stock_Price_Predication.git
+cd Tesla_Stock_Price_Predication
+```
 
 ### 3. Create a Virtual Environment (Optional but Recommended)
 ```bash
