@@ -1,3 +1,6 @@
+# ⚡ Tesla Stock Price Prediction Dashboard
+
+A premium quantitative finance dashboard comparing **LSTM** and **SimpleRNN** neural network architectures for multi-step stock price forecasting. Built with Python, TensorFlow/Keras, and Streamlit.
 
 ---
 
