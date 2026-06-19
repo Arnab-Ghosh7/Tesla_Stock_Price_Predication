@@ -93,7 +93,12 @@ streamlit run app.py
 Once executed, the dashboard will open automatically in your default browser (typically at `http://localhost:8501`).
 
 ---
-
+## 📊 Dashboard Modules & Features
+The interactive dashboard is organized into four distinct sections:
+1. **📈 Historical Analytics:** Explores Tesla stock price history with 50-day and 200-day Simple Moving Averages, historical trading volumes, and daily percentage returns distribution.
+2. **⚡ Deep Learning Forecast:** Compares actual TSLA closing prices with model-predicted lines for 1-day, 5-day, and 10-day horizons. Displays real-time error tracking and raw forecast tables.
+3. **📊 Model Comparison & Tuning:** Highlights side-by-side performance indicators (MSE, RMSE, MAE, R²), visualizes epoch-by-epoch loss curves, and displays the hyperparameter tuning search grid.
+4. **📝 Executive Summary:** Contextualizes the project's background, core findings, model degradation across forecast horizons, and real-world business use cases.
 
 
 ---
