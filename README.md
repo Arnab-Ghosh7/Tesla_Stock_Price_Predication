@@ -4,17 +4,7 @@ A premium quantitative finance dashboard comparing **LSTM** and **SimpleRNN** ne
 
 ---
 
-## 📖 Project Overview & Background
-Predicting stock prices is a complex challenge in quantitative finance due to non-stationarity, market noise, and microstructural shifts. This project trains and evaluates sequential Deep Learning models on historical **Tesla (TSLA)** stock prices.
 
-Key details of the modeling pipeline:
-- **Lookback Window:** 60 trading days of historical adjusted closing prices are used as input.
-- **Forecast Horizon:** Predicts the next 10 consecutive days.
-- **Data Split:** Chronological 80% train / 20% test split to avoid lookahead bias.
-- **Architectures:**
-  - **Long Short-Term Memory (LSTM):** Captures long-term dependencies and manages vanishing gradients via gating mechanisms.
-  - **Simple Recurrent Neural Network (SimpleRNN):** Light-weight recurrent model evaluating short-term sequential patterns.
-- **Hyperparameter Tuning:** Custom grid search optimization (GridSearchCV-style) over LSTM units, dropout rates, and learning rates.
 
 
 ---
